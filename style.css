@@ -9,7 +9,7 @@ margin: 0%;
 .orange-colour{
    color: rgb(221, 36, 36);
 }
- section{
+ .flexible-container {
      display: flex;
      margin-bottom: 150px;
  }
@@ -42,6 +42,31 @@ margin: 0%;
      background-image: url(images/dream-bg.png);
      background-repeat: no-repeat;
      background-position: right;
-
  }
-  
+  .ten{
+box-shadow: 10px 10px 40px;
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 23px;
+padding-right: 20px;
+border-radius: 15px;
+
+  }
+  .three{
+      background-image: url(images/exp-bg.png);
+      background-repeat: no-repeat;
+  }
+  #qwe{
+      border-left: 7px solid;
+      border-image: linear-gradient( blue , cyan )
+
+  }
+  #rty{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,salmon)
+    
+  }
+  footer{
+      text-align: center;
+  }
