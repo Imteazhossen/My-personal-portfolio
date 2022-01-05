@@ -1,0 +1,32 @@
+h1 {
+     font-size: 40px;
+}
+body {
+    font-family: 'Noto Serif', serif;
+font-family: 'Poppins', sans-serif;
+margin: 0%;
+}
+.orange-colour{
+   color: rgb(221, 36, 36);
+}
+ section{
+     display: flex;
+ }
+ .half-weidth{
+     width: 50%;
+     padding-left: 5%;
+ }
+ .half-weidth img{
+     width: 80%;
+ }
+ .link-button{
+     background-image: linear-gradient(blue , skyblue );
+     text-decoration: none;
+     padding: 10px 40px;
+     border-radius: 5px;
+     font font-weight: 900px;
+ }
+ .image-background{
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+ }
